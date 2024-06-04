@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JokemPô</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>JokemPô</h1>
+
+        <div class="buttons">
+            <button id="pedra" onclick="playHuman('pedra')">&#9994;</button>
+            <button id="papel" onclick="playHuman('papel')">&#128400;</button>
+            <button id="tesoura" onclick="playHuman('tesoura')">&#9996;</button>
+        </div>
+
+        <p class="resultado"></p>
+        
+
+        <p class=" seu-score">Sua Pontuação: <span id="ponto-humano">0</span></p>
+        <p class="score-alexa">Pontuação Alexa: <span id="ponto-alexa">0</span></p>
+    </div>
+<script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://source.unsplash.com/1600x900/?landscape);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+#pedra {
+    background-color: blueviolet;
+}
+
+#papel {
+    background-color: darkorange;
+}
+
+#tesoura {
+    background-color: orangered;
+}
+
+p {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.seu-score span {
+    color: blue;
+}
+
+.score-alexa span {
+    color: red;
+}
